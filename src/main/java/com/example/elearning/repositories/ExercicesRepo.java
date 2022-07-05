@@ -1,0 +1,9 @@
+package com.example.elearning.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.elearning.entities.Exercices;
+
+public interface ExercicesRepo extends JpaRepository<Exercices, Integer> {
+
+}
